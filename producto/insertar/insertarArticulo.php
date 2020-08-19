@@ -7,7 +7,7 @@ if(!empty($_POST["idcategoria"]) && !empty($_POST["idsubcategoria"]) && !empty($
     $idcategoria = $_POST["idcategoria"];
     $idsubcategoria = $_POST["idsubcategoria"];
     $nombrearticulo = $_POST["nombrearticulo"];
-    include_once '../conexion.php';
+    include_once '../../conexion.php';
     date_default_timezone_set("America/Guayaquil");
     $fecha = date('Y-m-d H:i:s');
     

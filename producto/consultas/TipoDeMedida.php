@@ -1,5 +1,5 @@
 <?php 
-include_once '../conexion.php';
+include_once '../../conexion.php';
 $sql = "SELECT id_tipo_medidas,nombre_tipo_medida FROM pr_tipo_medidas";
 $res = $Conexion->query($sql);
 mysqli_close($Conexion);

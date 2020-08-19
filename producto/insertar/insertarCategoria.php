@@ -2,7 +2,7 @@
 //$_POST["nombrecategoria"]="PRUEBA3";
 if(!empty($_POST["nombrecategoria"])){
 $nombrecategoria = $_POST["nombrecategoria"];
-include_once '../conexion.php';
+include_once '../../conexion.php';
 date_default_timezone_set("America/Guayaquil");
 $fecha = date('Y-m-d H:i:s');
 

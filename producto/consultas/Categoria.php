@@ -1,5 +1,5 @@
 <?php 
-include_once '../conexion.php';
+include_once '../../conexion.php';
 $sql = "SELECT id_grupo,nombre FROM pr_grupos";
 $res = $Conexion->query($sql);
 

@@ -3,7 +3,7 @@
 //$_POST["medida"]="PRUEBA2";
 if( !empty($_POST["medida"]) ){
     $medida = $_POST["medida"];
-    include_once '../conexion.php';
+    include_once '../../conexion.php';
     date_default_timezone_set("America/Guayaquil");
     $fecha = date('Y-m-d H:i:s');
     

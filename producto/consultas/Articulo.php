@@ -1,10 +1,9 @@
 
-
 <?php
 //$_POST["idsubgrupo"]=12;
 if(!empty($_POST["idsubgrupo"])){
 	$idsubgrupo = $_POST["idsubgrupo"];
-	include_once '../conexion.php';
+	include_once '../../conexion.php';
 $sql = "SELECT id_articulo,nombre_articulo FROM pr_articulo where id_subgrupo=$idsubgrupo";
 $res = $Conexion->query($sql);
 mysqli_close($Conexion);

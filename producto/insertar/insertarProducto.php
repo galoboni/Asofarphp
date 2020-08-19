@@ -52,7 +52,7 @@ $id_producto="";  // SERVIRA DESPUES DE CREARSE
 
 
 //TRAEMOS LA CONEXION Y FECHA/HORA ACTUAL
-include_once '../conexion.php';
+include_once '../../conexion.php';
 date_default_timezone_set("America/Guayaquil");
 $fecha = date('Y-m-d H:i:s');
 

@@ -1,5 +1,5 @@
 <?php  
-include_once '../conexion.php';
+include_once '../../conexion.php';
 $sql = "SELECT id_proveedor,nombre FROM co_proveedores";
 $res = $Conexion->query($sql);
 mysqli_close($Conexion);
